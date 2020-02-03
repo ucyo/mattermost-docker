@@ -5,6 +5,7 @@ ENV DEFAULT_TIMEZONE UTC
 # Install some packages to use WAL
 RUN apk add --no-cache \
       build-base \
+      libressl-dev \
       curl \
       libc6-compat \
       libffi-dev \
